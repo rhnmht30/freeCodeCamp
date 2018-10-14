@@ -1,0 +1,112 @@
+body {
+    background-color: rgba(207, 225, 139, 0.89);
+    font-family: "Helvetica";
+    padding: auto;
+    margin: auto;
+    text-align: justify;
+    max-width: 80%;
+}
+
+#title,
+#img-div,
+#tribute-info,
+#know {
+    position: relative;
+    top: 25px;
+}
+
+/* img {
+      max-width: 100%;
+      display: block;
+  } these were my mistakes*/
+
+/* #main {
+      background-color: rgba(194, 255, 49, 1);
+      padding: 20px;
+      margin: 125px;
+      border-radius: 30px;
+      overflow: auto;
+  } */
+
+#title,
+#img-div,
+#quote,
+#know {
+    text-align: center;
+}
+
+#about {
+    text-align: left;
+    margin-right: 10px;
+    line-height: 10px;
+}
+
+#list {
+    position: relative;
+    float: left;
+    text-align: justify;
+}
+
+#profile-img {
+    box-shadow: 0 0 15px 5px rgba(22, 156, 156, 0.4);
+    border-radius: 125px;
+    max-width: 100%;
+    position: relative;
+    left: auto;
+}
+
+h1 {
+    font-size: 55px;
+    position: relative;
+    top: 5px;
+    margin: 10px;
+    color: rgba(11, 5, 65, 0.884);
+}
+
+h4 {
+    font-size: 15px;
+    color: rgba(11, 5, 65, 0.884);
+}
+
+#img-caption {
+    text-align: center;
+    margin: auto;
+    font-size: 13px;
+}
+
+#image {
+    max-width: 100%;
+    display: block;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: rgba(11, 5, 65, 0.884);
+    margin: auto;
+}
+
+#quote {
+    font-size: 40px;
+    opacity: 0.5;
+}
+
+@media (max-width: 652px) {
+    #quote {
+        font-size: 25px;
+    }
+    h1 {
+        font-size: 35px;
+        color: red;
+    }
+}
+
+@media (max-width: 430px) {
+    #quote {
+        font-size: 25px;
+    }
+    h1 {
+        font-size: 20px;
+        font-weight: 700
+    }
+    h4 {
+        font-size: 10px;
+    }
+}
